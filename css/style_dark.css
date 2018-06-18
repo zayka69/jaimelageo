@@ -1,0 +1,7 @@
+html,body{color:#cbd0d5;height:100%;width:100%;font-size:88%;font-family:Helvetica,Arial,sans-serif;}
+a:focus,a:hover{color:#a1c2e4;}
+a:focus,a:hover{text-decoration:underline;}
+a{text-decoration:none;font-size:18px;color:#ffff00;}
+#content{margin:-30px 0px 0 80px;width:70em;z-index:4;}
+#parallax{position:relative;overflow:hidden;width:70em;height:300px;margin:1.5em 0;}
+.email {margin-left:150px;font-size:20px;font-family: Helvetica, Arial, sans-serif;}

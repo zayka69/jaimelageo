@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#body1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color:#999;
+	background-image: url('../Site_intran.png');
+	background-repeat: no-repeat;
+}
+
+#accordion {
+	z-index:2;
+	width:400px;
+}
+
+#apDiv3 {
+	position:relative;
+	left:260px;
+	width:760px;
+	height:70px;
+	z-index:2;
+	color:#000000;
+	font-size:24px;
+}
+
+#accueil {
+	position:absolute;
+	left:30px;
+	top:10px;
+	z-index:2;	
+}
+
+#accueil a {
+text-decoration:none;
+}
+
+#accueil a img{
+border: none;
+}
+
+
+a.ref{
+    color:#888;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #000;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+a.ref:hover{
+    color:#000;
+}
+
+.container{
+    width:900px;
+    height:154px;
+    margin:0 auto;
+    position:absolute;
+	left:250px;
+    overflow:hidden;
+    border:3px solid #ffffff;
+    -moz-box-shadow:1px 1px 6px #000;
+    -webkit-box-shadow:1px 1px 6px #000;
+    -moz-border-radius:0px 0px 20px 20px;
+    -webkit-border-bottom-left-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    border-radius:0px 0px 20px 20px;
+}
+ul#menu{
+    list-style:none;
+    position:absolute;
+    bottom:0px;
+    left:20px;
+    font-size:36px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color:#999;
+    letter-spacing:-2px;
+}
+ul#menu li{
+    float:left;
+    margin:0px 10px 0px 0px;
+}
+ul#menu a{
+    cursor:pointer;
+    position:relative;
+    float:left;
+    bottom:-95px;
+    line-height:20px;
+    width:210px;
+}
+
+ul#menu span.title{
+    display:block;
+    height:26px;
+    text-shadow:1px 1px 1px #000;
+    color:#4c4779;
+    text-indent:10px;
+}
+ul#menu span.description{
+    width:140px;
+	height:80px;
+    background-color:#B7B7B6;
+    border:3px solid #fff;
+    color:#fff;
+    display:block;
+    font-size:24px;
+    padding:10px;
+    -moz-box-shadow:1px 1px 6px #000;   
+    -webkit-box-shadow:1px 1px 6px #000;
+    box-shadow:1px 1px 6px #000;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+ul#menu a:hover span.description{
+    background-color:#54504F;
+}
+ul#menu a:hover span.title{
+	color:#4c4779;
+}
+ul#menu a {
+	text-decoration:none;
+}
+
